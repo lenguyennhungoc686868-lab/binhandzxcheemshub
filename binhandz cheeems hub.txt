@@ -64,7 +64,6 @@ elseif (v18 == 4442272183) then
 elseif (v18 == 7449423635) then
     Sea3 = true;
 else
-    game:Shutdown();
 end
 game:GetService("Players").LocalPlayer.Idled:connect(function()
     game:GetService("VirtualUser"):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame);
@@ -9026,4 +9025,5 @@ spawn(function()
         end
     end
 end);
+
 
